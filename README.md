@@ -57,8 +57,8 @@ To install our project, you need to clone the repository first:
 ```bash
 $ mkdir ~/workdir
 $ cd ~/workdir
-$ git clone https://github.com/ucu-cs/lab6_word_count_sequential-yakovkin_naumenko_polishko.git
-$ cd lab6_word_count_sequential-yakovkin_naumenko_polishko
+$ git clone https://github.com/CaCuCkA/thread-pool-and-threadsafe-map.git
+$ cd thread-pool-and-threadsafe-map
 ```
 
 > Replace `~/workdir` with the path to your workspace.
