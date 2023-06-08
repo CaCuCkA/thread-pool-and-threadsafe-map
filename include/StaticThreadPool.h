@@ -18,8 +18,7 @@ public:
     StaticThreadPool& operator=(StaticThreadPool&&) = delete;
 
     StaticThreadPool()
-            :
-    m_done(false), m_joiner(m_threads)
+        : m_done(false), m_joiner(m_threads)
     {
         const uint16_t threadCount = std::thread::hardware_concurrency();
         try
@@ -68,10 +67,12 @@ private:
             }
         }
     }
+
 private:
     std::atomic_bool m_done;
     ThreadSafeQueue<FunctionWrapper> m_work_queue;
     std::vector<std::thread> m_threads;
     JoinThreads m_joiner;
 };
+
 #endif //STATIC_THREADPOOL_H

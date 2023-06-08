@@ -57,4 +57,5 @@ public:
 private:
     std::unique_ptr<ImplementBase> m_implement;
 };
+
 #endif // FUNCTION_WRAPPER_H

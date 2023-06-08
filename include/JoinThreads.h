@@ -32,4 +32,5 @@ public:
 private:
     std::vector<std::thread>& m_threads;
 };
+
 #endif //JOIN_THREADS_H
