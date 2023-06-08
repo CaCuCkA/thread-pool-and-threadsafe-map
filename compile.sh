@@ -16,10 +16,8 @@ Compile() {
 Clean() {
   echo -e "${YELLOW}Cleaning...${NORMAL}"
   if [ -d "build" ]; then rm -Rf build; fi
-  if [ -d "venv" ]; then rm -Rf venv; fi
-  cd data || exit
-  if [ -f "integers_50M.txt" ]; then rm integers_50M.txt; fi
-  cd ..
+  if [ -d "plots" ]; then rm -Rf plots; fi
+  if [ -d "bin" ]; then rm -Rf bin; fi
   echo -e "${GREEN}Done${NORMAL}"
 }
 
