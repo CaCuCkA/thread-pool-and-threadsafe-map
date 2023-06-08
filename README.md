@@ -58,8 +58,8 @@ To install our project, you need to clone the repository first:
 ```bash
 $ mkdir ~/workdir
 $ cd ~/workdir
-$ git clone https://github.com/CaCuCkA/thread-pool-and-threadsafe-map.git
-$ cd thread-pool-and-threadsafe-map
+$ git clone https://github.com/CaCuCkA/thread-pools.git
+$ cd thread-pools
 ```
 
 > Replace `~/workdir` with the path to your workspace.
@@ -564,7 +564,5 @@ compare, because each implementation is good in its own way and is used in diffe
   description.
 * [WinApi](https://learn.microsoft.com/en-us/windows/win32/procthread/thread-pool-api). Full description of WinApi.
 * [`pthread` library](https://docs.oracle.com/cd/E19120-01/open.solaris/816-5137/tlib-1/index.html). Full description
-  of `pthread` library. 
-* 
-
+  of `pthread` library.
 
